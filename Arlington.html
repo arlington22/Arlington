@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  max-height: fit-content;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #066d14;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, increase text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 24px}
+}
+</style>
+</head>
+<body>
+	<header class="top-header">
+		<div>
+			<img class="logo" src="Logo.JPG" alt="Logo width="300px">
+		</div>
+		<div>
+			<h1 id="logo"> WELCOME TO ST LAWRENCE CATHOLIC HIGH SCHOOL</h1>
+		</div>
+		<div>
+			<ul class="menu">
+				<li><a href="#"> GIVE INQUIRE</a></li>
+				<li><a href="#"> VISIT</a> </li>
+				<li><a href="https://form.jotform.com/242135381732553"> APPLY</a> </li>
+			</ul>
+		</div>
+</header>
+<body>
+
+<h2>CATHOLIC DIOCESE OF GBARNGA</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="IMG_3884.JPG" style="width:100%">
+  <div class="text">THE SCHOOL OF HOPE</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="IMG_3879.JPG" style="width:100%">
+  <div class="text">THIS IS THE DOVECOTES</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="IMG_3883.JPG" style="width:100%">
+  <div class="text">OUR ALMA MATER WILL PREVAIL FOREVER</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 10 seconds
+}
+</script
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Arlington Final Project</title>
+	<body>
+		
+	<main class="our_page">
+	
+				
+			<section>
+				<div class="price">
+					<h2> CATHOLIC SCHOOLS</h2>
+				</div>
+				
+					<p class="our_text">
+						The Catholic schools exist primarily for the purpose of sharing with students the principles of Christian Education which according to the Second Vatican Council: "...aim at the foundation of human persons with respect to their ultimate goal, and simultaneously with respect to the good of those socities of which as persons they are members and in whose responbilities, as adults they share.
+					</p>
+			</section>
+			<section>
+				<div class="price">
+				<h2> THE ADMINISTRATION</h2>
+				</div>
+			
+					<p>
+						The administration of an instution/school comprises an Administrative Team that consists of the Principal, the Vice Principal(s), the Dean, the Registrar,the Guidance Counselor and the Business Manager with the pasto, in his absence, the Parish Catechist, serving as Ex-Officio/Advisor. The Team is chaired by the Principal, or the Vice Principal for administration in the Principal's absence, and cites members to meetings per schedule or as need be. Though the Principal is the highest authority within the instutuion/school, this team serves to broaden the administrative decision-making process.
+						</p>
+			</section>
+			<section>
+				<div class="price">
+				<h2> THE STUDENTS</h2>
+				</div>
+						<P>
+							The student in a catholic instutionk is there for a purpose: to be prepared to live with dignity presently and in the future, with an awareness of God and of his/her fianl destiny. 
+							Coopreration with and love and respect for authority, for peers, for parents/guardians and thereby give meaning to existence as a creature in the likeness of the Creator.
+						</P>
+
+			</section>
+			<section>
+				<div class="price">
+				<h2> EXTRA-CURRICULA ACTIVITIES</h2>
+				</div>
+
+					<p>
+						The school exists to help the student develop not only intellectually, but also spiritually, socially, physically, morally and psychologically. Hence, the need for extra-curricula activities does not and must not take precedence over academics. These activities are not limited to sports, but also include drama, dancing, singing, debates, etc. Special care should be taken to help students develop their talents fruitfully in whatever direction.
+						Extra-curricula activities are also to be used to bring the schools of the Diocese together in a spirit of wholesome competition so as to foster not only excellent sportmanship, but also the sense of belonging to one caring family.
+					</p>
+					<ul>
+						<li> <u>
+							<h4>Gala Day </h4>
+						</li> </u>
+							<p>
+								Each instution/school sets a day aside each year to commemorate its beginning (Founder's Day) or to honor its patron saint with the appropiate programs. These celebrations are not to take away from instructoinal time. 
+							</p>
+						<li> <u>
+								<h4>Graduation Excercises </h4>
+						</li> </u>
+							<p>
+								Commencement excercises replate with guest speakers, caps and gowns are no longer norm in Catholic Mission High Schools. A simple religious ceremony and honoring program mark the end of the academic year. Graduation Excercises will not be held in the Church building. There will be thanksgiving mass for every school on the eve of their graduat
+							</p>
+					</ul>
+			</section>
+			 <section class="programs-section">
+                <h2>OUR SCHOOL NEWS</h2>
+                <div class="program-container">
+                    <div class="program">
+                        <div class="image-container">
+                            <img src="homecoming.jfif" alt="">
+                        </div>
+                        <div class="caption">
+                            <h3 class="title">OUR ALUMNI PLAN A HOMECOMING!!</h3>
+                            <p>"Back to the future: A Weekend to Remember at Our School Homecoming!"</p>
+                            <div class="info-btn-container">
+                                <button id="codding-school" class="info-button">Click Here!</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="program">
+                        <div class="image-container">
+                            <img src="IMG_3880.JPG" alt="">
+                        </div>
+                        <div class="caption">
+                            <h3 class="title">SCHOOL TO RESUME SEPTEMBER </h3>
+                            <p>The administration of the St. Lawrence Catholic High School in consultation with the Ministry of Education mendates the reopening of school/academic activities this September</p>
+                            <div class="info-btn-container">
+                                <button id="fab-lab" class="info-button">Click Here!</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="program">
+                        <div class="image-container">
+                            <img src="priest.jpg" alt="">
+                        </div>
+                        <div class="caption">
+                            <h3 class="title">THE PARISH PRIEST TO LAUCH A SCHOLARSHIP SCHEME</h3>
+                            <p>Head of the Immaculate Heart of Mary Parish (The Catholic Church-Ganta) is expected to launch a scholarship scheme for high adverage and well-discplined students.</p>
+                            <div class="info-btn-container">
+                                <button id="fab" class="info-button">Click Here!</button>
+                            </div>
+                        </div>
+                    </div> 
+				    
+		</main>
+			
+					<footer>Copyright - THE OFFICIAL HOMEPAGE OF ST LAWRENCE CATHOLIC HIGH SCHOOL
+
+           <h3>
+            FOR MORE INQUIRY VISIT US @ 
+           </h3>
+          
+           <a href="#">stlawrence@slchs.edu.lr</a>
+					</footer>
+			
+           
+	
+	</body>
+
+
+</html>
+		
+			
+			
+		
+			
